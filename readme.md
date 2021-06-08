@@ -11,3 +11,7 @@ docker pull hacksore/hks
 npm i
 npm run stamps
 ```
+
+## Info
+
+`kia.json` and `hyundai.json` are updated daily.

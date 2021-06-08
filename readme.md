@@ -2,7 +2,7 @@
 
 List of daily generated stamps for UVO and Bluelink.
 
-Used by (Bluelinky)[https://github.com/Hacksore/bluelinky].
+Used by [Bluelinky](https://github.com/Hacksore/bluelinky).
 
 ## Usage
 

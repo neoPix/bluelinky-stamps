@@ -1,18 +1,13 @@
 import { execSync, spawn } from 'child_process';
 
-const APP_IDS = {
-  hyundai: '99cfff84-f4e2-4be8-a5ed-e5b755eb6581',
-  kia: '693a33fa-c117-43f2-ae3b-61a02d24f417'
-};
-
-export const getStamps = async (brand: string): Promise<Array<string>> => {
-  if (!APP_IDS[brand]) {
+export const getStamps = async (brand: string, appID: string): Promise<Array<string>> => {
+  if (!appID) {
     throw new Error(`${brand} is not managed.`);
   }
 
   return new Promise((resolve, reject) => {
     execSync('docker pull hacksore/hks');
-    const process = spawn('docker', ['run', 'hacksore/hks', brand, 'list', APP_IDS[brand]]);
+    const process = spawn('docker', ['run', 'hacksore/hks', brand, 'list', appID]);
     const list: Array<string> = [];
     let errors = '';
 

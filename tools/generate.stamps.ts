@@ -5,12 +5,19 @@ import { getStamps } from './european.tools';
 
 const SIZE = 2000;
 
-const generateStampsForBrand = async (brand) => {
-  const stamps = await getStamps(brand);
-  const array = stamps.slice(1, SIZE + 1);
+const appsToGenerate = [
+  { brand: 'hyundai', appId: '99cfff84-f4e2-4be8-a5ed-e5b755eb6581', fileName: 'hyundai' },
+  { brand: 'kia', appId: '693a33fa-c117-43f2-ae3b-61a02d24f417', fileName: 'kia' },
+  { brand: 'kia', appId: 'e7bcd186-a5fd-410d-92cb-6876a42288bd', fileName: 'kia-e7bcd186-a5fd-410d-92cb-6876a42288bd' },
+];
 
-  writeFileSync(join(resolve('.'), `${brand}.json`), JSON.stringify(array, undefined, 4));
-};
+const main = async () => {
+  for (const { brand, appId, fileName } of appsToGenerate) {
+    const stamps = await getStamps(brand, appId);
+    const array = stamps.slice(1, SIZE + 1);
+    writeFileSync(join(resolve('.'), `${fileName}.json`), JSON.stringify(array, undefined, 4));
+  }
+}
 
-generateStampsForBrand('hyundai').catch((err) => console.error(err));
-generateStampsForBrand('kia').catch((err) => console.error(err));
+
+main().catch((err) => console.error(err));

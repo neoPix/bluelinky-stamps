@@ -8,6 +8,7 @@ Used by [Bluelinky](https://github.com/Hacksore/bluelinky).
 
 ```bash
 docker pull hacksore/hks
+docker pull hacksore/hks:arm
 npm i
 npm run stamps
 ```

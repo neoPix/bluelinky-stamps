@@ -15,4 +15,4 @@ npm run stamps
 
 ## Info
 
-`kia.json` and `hyundai.json` are updated daily.
+`kia.json`, `kia-e7bcd186-a5fd-410d-92cb-6876a42288bd.json` and `hyundai.json` are updated every 6 hours.

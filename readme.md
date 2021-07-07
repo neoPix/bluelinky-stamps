@@ -4,6 +4,12 @@ List of daily generated stamps for UVO and Bluelink.
 
 Used by [Bluelinky](https://github.com/Hacksore/bluelinky).
 
+## Dependencies
+
+- node/npm
+- docker
+- qemu (see : https://github.com/Hacksore/hyundai-kia-stamp/tree/arm#before-you-start)
+
 ## Usage
 
 ```bash

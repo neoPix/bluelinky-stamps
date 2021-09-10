@@ -9,7 +9,7 @@ export const getStamps = async (brand: string, appID: string, image: string): Pr
     console.debug(`Pulling image ${image}`);
     execSync(`docker pull ${image}`);
     console.debug(`Starting image ${image} - ${brand}`);
-    const process = spawn('docker', ['run', image, brand, 'list', appID]);
+    const process = spawn('docker', ['run', '--rm', image, brand, 'list', appID]);
     const list: Array<string> = [];
     let errors = '';
 

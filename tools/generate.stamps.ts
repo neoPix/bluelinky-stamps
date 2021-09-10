@@ -8,6 +8,7 @@ const SIZE = 2000;
 const appsToGenerate = [
   { brand: 'hyundai', appId: '99cfff84-f4e2-4be8-a5ed-e5b755eb6581', fileName: 'hyundai', image: 'hacksore/hks:latest' },
   { brand: 'kia', appId: '693a33fa-c117-43f2-ae3b-61a02d24f417', fileName: 'kia', image: 'hacksore/hks:latest' },
+  { brand: 'hyundai', appId: '014d2225-8495-4735-812d-2616334fd15d', fileName: 'hyundai-014d2225-8495-4735-812d-2616334fd15d', image: 'hacksore/hks:arm' },
   { brand: 'kia', appId: 'e7bcd186-a5fd-410d-92cb-6876a42288bd', fileName: 'kia-e7bcd186-a5fd-410d-92cb-6876a42288bd', image: 'hacksore/hks:arm' },
 ];
 

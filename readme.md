@@ -2,7 +2,9 @@
 
 List of daily generated stamps for UVO and Bluelink.
 
-Used by [Bluelinky](https://github.com/Hacksore/bluelinky).
+Used by: 
+- [Bluelinky](https://github.com/Hacksore/bluelinky) [JS]
+- [Kia_uvo](https://github.com/fuatakgun/kia_uvo) [Python]
 
 ## Dependencies
 

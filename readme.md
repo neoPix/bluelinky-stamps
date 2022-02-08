@@ -28,4 +28,6 @@ npm run stamps
 
 `kia.json`, `hyundai.json`, `kia.v2.json` and `hyundai.v2.json` are outdated but still generated.
 
-`kia-e7bcd186-a5fd-410d-92cb-6876a42288bd.json`, `hyundai-014d2225-8495-4735-812d-2616334fd15d.json`, `kia-e7bcd186-a5fd-410d-92cb-6876a42288bd.v2.json`, `hyundai-014d2225-8495-4735-812d-2616334fd15d.v2.json` are updated every 15 minutes.
+`kia-e7bcd186-a5fd-410d-92cb-6876a42288bd.json`, `hyundai-014d2225-8495-4735-812d-2616334fd15d.json`, `kia-e7bcd186-a5fd-410d-92cb-6876a42288bd.v2.json`, `hyundai-014d2225-8495-4735-812d-2616334fd15d.v2.json` are updated every hour.
+
+Each stamp file contains 1000 stamps, 20 seconds appart. This about 333 minutes worth of stamps (about 5h30).

@@ -8,7 +8,7 @@ Using:
 Used by: 
 - [Bluelinky](https://github.com/Hacksore/bluelinky) [JS]
 - [Kia_uvo](https://github.com/fuatakgun/kia_uvo) [Python]
-
+- [EVCC](https://github.com/evcc-io/evcc) [GO]
 ## Dependencies
 
 - node/npm

@@ -18,7 +18,7 @@ const main = async () => {
     const stamps = await getStamps(brand, appId, image);
     const array = stamps.slice(3, SIZE + 1);
     writeFileSync(join(resolve('.'), `${fileName}.json`), JSON.stringify(array));
-    writeFileSync(join(resolve('.'), `${fileName}.v2.json`), JSON.stringify({ stamps: array, generated: now, frequency: 20000 }));
+    writeFileSync(join(resolve('.'), `${fileName}.v2.json`), JSON.stringify({ stamps: array, generated: now, frequency: 120000 }));
   }
 }
 

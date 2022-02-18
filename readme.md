@@ -34,7 +34,7 @@ Each stamp file contains 1000 stamps, 120 seconds appart. This about 2000 minute
 
 ## Stamp file structure
 The below structure is valid for the .v2.json files
-'
+'''
 {
 	"stamps": [
 		"dGpcIp3dP0dLfkNRUItk/sCdmouaEMW4JAlLv76lGxrWLqMbn3rTZi6VOyPOgdY=",
@@ -47,7 +47,7 @@ The below structure is valid for the .v2.json files
 	],
 	"generated": "2022-02-08T07:04:03.677Z",
 	"frequency": 120000
-}'
+}'''
 Where:
 "stamps": array of stamps
 "generated": date-time in UTC when the stamp file was generated

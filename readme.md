@@ -49,7 +49,7 @@ The below structure is valid for the .v2.json files
 	"frequency": 120000
 }
 ```
-Where:
+Where:</br>
 "stamps": array of stamps</br>
 "generated": date-time in UTC when the stamp file was generated</br>
 "frequency": the time between the stamps (in milliseconds)</br>

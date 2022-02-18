@@ -50,7 +50,7 @@ The below structure is valid for the .v2.json files
 }
 ```
 Where:
-"stamps": array of stamps
-"generated": date-time in UTC when the stamp file was generated
-"frequency": the time between the stamps (in milliseconds)
+"stamps": array of stamps</br>
+"generated": date-time in UTC when the stamp file was generated</br>
+"frequency": the time between the stamps (in milliseconds)</br>
 Note that the validity of a single stamp my be longer than the frequency

@@ -1,6 +1,6 @@
-## Bluelinky Stamps
+## Bluelinky Stamps 🇪🇺
 
-List of daily generated stamps for UVO and Bluelink.
+List of daily generated stamps for UVO and Bluelink for the EU zone.
 
 Using:
 - [hyundai-kia-stamp](https://github.com/Hacksore/hyundai-kia-stamp/tree/arm) (docker)

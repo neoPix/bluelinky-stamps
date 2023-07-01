@@ -7,7 +7,8 @@ Using:
 
 Used by: 
 - [Bluelinky](https://github.com/Hacksore/bluelinky) [JS]
-- [Kia_uvo](https://github.com/fuatakgun/kia_uvo) [Python]
+- [Kia_uvo](https://github.com/Hyundai-Kia-Connect/kia_uvo) [Python]
+- [hyundai_kia_connect_api](https://github.com/Hyundai-Kia-Connect/hyundai_kia_connect_api) [Python]
 - [EVCC](https://github.com/evcc-io/evcc) [GO]
 ## Dependencies
 

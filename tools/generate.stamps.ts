@@ -11,6 +11,12 @@ const appsToGenerate = [
   { brand: 'kia', appId: 'a2b8469b-30a3-4361-8e13-6fceea8fbe74', fileName: 'kia-a2b8469b-30a3-4361-8e13-6fceea8fbe74', image: 'hacksore/hks:arm' },
   { brand: 'hyundai', appId: '99cfff84-f4e2-4be8-a5ed-e5b755eb6581', fileName: 'hyundai', image: 'hacksore/hks:latest' },
   { brand: 'kia', appId: '693a33fa-c117-43f2-ae3b-61a02d24f417', fileName: 'kia', image: 'hacksore/hks:latest' },
+  {
+    brand: "hyundai",
+    appId: "f9ccfdac-a48d-4c57-bd32-9116963c24ed",
+    fileName: "hyundai-f9ccfdac-a48d-4c57-bd32-9116963c24ed",
+    image: "hacksore/hks:arm-au",
+  }
 ];
 
 const main = async () => {

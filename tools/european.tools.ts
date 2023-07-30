@@ -7,7 +7,7 @@ export const getStamps = async (brand: string, appID: string, image: string): Pr
 
   return new Promise((resolve, reject) => {
     console.debug(`Pulling image ${image}`);
-    if(image.include('arm')) {
+    if(image.includes('arm')) {
       execSync(`docker pull ${image}`);
     }
     else {

@@ -8,10 +8,10 @@ export const getStamps = async (brand: string, appID: string, image: string): Pr
   return new Promise((resolve, reject) => {
     console.debug(`Pulling image ${image}`);
     if(image.includes('arm')) {
-      execSync(`docker pull ${image}`);
+      execSync(`docker pull --platform linux/arm/v8 ${image}`);
     }
     else {
-      execSync(`docker pull --platform linux/arm/v8 ${image}`);
+      execSync(`docker pull ${image}`);
     }
     console.debug(`Starting image ${image} - ${brand}`);
     const process = spawn('docker', ['run', '--rm', image, brand, 'list', appID]);
